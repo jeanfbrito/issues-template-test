@@ -1,6 +1,6 @@
-name: Report a Bug
+name: Bug report
 title: 'Bug title'
-description: Problems and issues with Rocket.Chat Desktop App
+description: Report issues with Rocket.Chat Desktop App
 labels: ['type: bug']
 body:
   - type: markdown
