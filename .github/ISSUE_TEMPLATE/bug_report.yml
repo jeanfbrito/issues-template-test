@@ -40,9 +40,9 @@ body:
 
   - type: input
     attributes:
-      label: OS Version
+      label: Operating System Version
       description: >
-        Please specify the version of the operating systems.
+        Please specify the version of the operating system.
       placeholder: Windows 10, macOS 10.15, Ubuntu 18.04
 
   - type: dropdown
@@ -125,18 +125,10 @@ body:
               - `<details><summary>x.log</summary> lots of stuff </details>`
       placeholder: Anything else we need to know?
 
-  - type: dropdown
-    id: will-submit-pr
+  - type: checkboxes
     attributes:
       label: Are you willing to submit a code contribution?
       description: |
         - We would be happy to guide you in the contribution process especially if you already have a good understanding of how to implement the fix.
       options:
-        - Yes, I am willing to submit a PR!
-        - 'No'
-    validations:
-      required: true
-
-  - type: markdown
-    attributes:
-      value: 'Thank you for submitting your issue, we really appreciate it!'
+        - label: Yes, I am willing to submit a Pull Request!
