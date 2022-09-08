@@ -1,7 +1,7 @@
 name: Report a Bug
-title: '[Bug][Module Name] Bug title'
+title: 'Bug title'
 description: Problems and issues with Rocket.Chat Desktop App
-labels: ['type/bug']
+labels: ['type: bug']
 body:
   - type: markdown
     attributes:
@@ -52,8 +52,8 @@ body:
       description: >
         Please test if the issue happens on the web browser too. It's very important to understand if the issue is related to the desktop app or the web app.
       options:
-        - 'Yes'
-        - 'No'
+        - 'Yes, it happens on the web browser too'
+        - 'No, it just happens on the Desktop app'
     validations:
       required: true
 
